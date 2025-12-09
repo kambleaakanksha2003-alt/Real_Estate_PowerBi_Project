@@ -81,3 +81,5 @@ Total Sold = CALCULATE(
 Total Revenue = SUM(Fact_Properties[Price])
 
 Sold % = DIVIDE([Total Sold], [Total Properties])
+
+---
