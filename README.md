@@ -2,7 +2,6 @@
 ![REAL_ESTATE](https://github.com/user-attachments/assets/19cfc50f-735a-4541-9497-65487c19320f)
 
 ---
-# 📊 Power BI Dashboard – Real Estate Analytics
 
 ## 📁 Project Overview
 This Power BI project provides an interactive analytics dashboard for real estate data.  
