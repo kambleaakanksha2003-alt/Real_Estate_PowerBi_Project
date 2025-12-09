@@ -36,6 +36,58 @@ The dashboard includes cards, slicers, visual charts, and drill-down features fo
 
 ---
 
+# 📊Dashboard
+
+---
+
+<img width="1320" height="747" alt="Real_Estate_Dashboard_1" src="https://github.com/user-attachments/assets/6937e20f-f340-4280-851b-79ac2e235169" />
+
+---
+
+<img width="1316" height="728" alt="Real_Estate_Dashboard_2" src="https://github.com/user-attachments/assets/2379d380-120f-4cce-9df7-e3cb9b9af2a5" />
+
+---
+
+<img width="1317" height="738" alt="Real_Estate_Dashboard_3" src="https://github.com/user-attachments/assets/48cb6afa-cd94-4609-b820-34ad6b84d978" />
+
+---
+
+<img width="1312" height="737" alt="Real_Estate_Dashboard_4" src="https://github.com/user-attachments/assets/5c15ead2-6f02-4b50-b5f3-c7f023b752af" />
+
+---
+
+<img width="1320" height="747" alt="Real_Estate_Dashboard_5" src="https://github.com/user-attachments/assets/19c6727d-d851-4e06-b1ea-84d5da9c56d3" />
+
+---
+
+<img width="1320" height="737" alt="Real_Estate_Dashboard_6" src="https://github.com/user-attachments/assets/c4eaf734-160d-48eb-81e3-b1567db76f8a" />
+
+---
+
+<img width="1325" height="736" alt="Real_Estate_Dashboard_7" src="https://github.com/user-attachments/assets/f684f9f9-67eb-472b-bc39-98d9df8f13c2" />
+
+---
+
+<img width="1318" height="742" alt="Real_Estate_Dashboard_8" src="https://github.com/user-attachments/assets/b7a6043a-0ec7-461d-99b3-2c1ef3570e9b" />
+
+---
+
+<img width="1315" height="735" alt="Real_Estate_Dashboard_9" src="https://github.com/user-attachments/assets/ecdfcee9-91bb-4816-9125-eabf74dcb793" />
+
+---
+
+<img width="1308" height="740" alt="Real_Estate_Dashboard_10" src="https://github.com/user-attachments/assets/0eed8edd-ec04-40e0-932d-51a46bf4880d" />
+
+---
+
+<img width="1316" height="742" alt="Real_Estate_Dashboard_11" src="https://github.com/user-attachments/assets/00b1525c-3817-407e-be9a-8c179a4179e9" />
+
+---
+
+<img width="1307" height="742" alt="Real_Estate_Dashboard_12" src="https://github.com/user-attachments/assets/8d247cf0-dd12-4052-86a4-489dbb8c8395" />
+
+---
+
 ## 🔧 Tools & Technologies Used
 - **Power BI Desktop**
 - **Power Query**
@@ -69,17 +121,5 @@ The dashboard includes cards, slicers, visual charts, and drill-down features fo
 
 ---
 
-## 📏 DAX Measures
-```DAX
-Total Properties = COUNT(Fact_Properties[Property_ID])
+# 📊Dashboard
 
-Total Sold = CALCULATE(
-    COUNT(Fact_Properties[Property_ID]),
-    Fact_Properties[Status] = "Sold"
-)
-
-Total Revenue = SUM(Fact_Properties[Price])
-
-Sold % = DIVIDE([Total Sold], [Total Properties])
-
----
