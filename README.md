@@ -84,7 +84,8 @@ The dashboard includes cards, slicers, visual charts, and drill-down features fo
 
 ---
 
-<img width="1307" height="742" alt="Real_Estate_Dashboard_12" src="https://github.com/user-attachments/assets/8d247cf0-dd12-4052-86a4-489dbb8c8395" />
+<img width="1338" height="752" alt="Real_Estate_Dashboard_12" src="https://github.com/user-attachments/assets/8a82f145-a37c-4b19-9280-636e370b504c" />
+
 
 ---
 
